@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satwik - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7fa;
+        }
+
+        header {
+            background: linear-gradient(90deg, #00796b, #4db6ac);
+            color: #ffffff;
+            padding: 25px 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 50px;
+        }
+
+        header img {
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        nav a:hover {
+            background: rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            margin: 20px;
+            padding: 30px;
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+            color: #333;
+        }
+
+        h2 {
+            color: #00796b;
+            border-bottom: 3px solid #00796b;
+            padding-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin: 15px 0;
+            padding-left: 25px;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #00796b;
+            color: #ffffff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer a {
+            color: #4db6ac;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .back-to-top {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .back-to-top a {
+            color: #00796b;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .back-to-top a:hover {
+            text-decoration: underline;
+        }
+
+        .chat-icon {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #00796b;
+            color: #ffffff;
+            border-radius: 50%;
+            padding: 15px;
+            font-size: 24px;
+            text-align: center;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .chat-icon:hover {
+            background: #004d40;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="20240516_075722.jpg" alt="Profile Photo">
+        <h1>V Satwik Reddy</h1>
+        <nav>
+            <a href="#top">About Me</a>
+            <a href="#about">Education</a>
+            <a href="#education">Skills</a>
+            <a href="#skills">Achievements</a>
+            <a href="#achievements">Projects</a>
+            <a href="#projects">Personal Skills</a>
+            <a href="#personal-skills">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am currently a 3rd year student in Computer Science and Artificial Intelligence at MLR Institute of Technology, JNTU Hyderabad. I am seeking opportunities to work on web development and AI/ML projects, aiming to enhance my skills and contribute to innovative software solutions.</p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>B.Tech in CSE-AIML:</strong> MLR Institute of Technology Hyderabad, 7.85 CGPA (Pursuing)</li>
+            <li><strong>Intermediate:</strong> Geetangali Global School, CBSE, 80%, 2022</li>
+            <li><strong>Matriculation:</strong> St Martins High School, ICSE, 85%, 2020</li>
+        </ul>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Web Development: HTML, CSS, JavaScript, Node.js, Flask, MongoDB, react</li>
+            <li>Developer Tools: VSCode, Jupyter Notebook, Eclipse</li>
+            <li>Programming Languages: Python, Java, SQL, C, NoSql</li>
+            <li>AI/ML and Data Science: Python, NumPy, Pandas, scikit-learn, TensorFlow, Flask</li>
+        </ul>
+    </section>
+
+    <section id="achievements">
+        <h2>Achievements</h2>
+        <ul>
+            <li>Artificial and Machine Learning by IITH</li>
+            <li>IoT Workshop by MLRIT</li>
+            <li>MongoDB Associate Developer through Java</li>
+            <li>AWS Cloud Development</li>
+        </ul>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>Platform For Event Origanizers</li>
+            <li>Simple Portfolio Website</li>
+            <li>Weather-Checking App</li>
+            <li>Mathematical Expression Evaluator </li>
+        </ul>
+    </section>
+    
+
+    <section id="personal-skills">
+        <h2>Personal Skills</h2>
+        <ul>
+            <li>Flexibility and Adaptability to work in any environment</li>
+            <li>Ability to work both independently and in teams</li>
+            <li>Positive attitude and Self-confidence</li>
+            <li>Effective communication skills and problem-solving abilities</li>
+            <li>Strong positive attitude and ability to share ideas with people from diverse backgrounds</li>
+        </ul>
+    </section>
+
+    <footer id="contact">
+        <p>Contact: <a href="mailto:satwik@example.com">satwikextra@gmail.com</a> | Phone: +91 9398998068</p>
+        <p>
+            <a href="https://github.com/V-Satwik-Reddy" target="_blank">GitHub</a> 
+        </p>
+        <p>&copy; 2024 Satwik</p>
+    </footer>
+    
+
+    <div class="chat-icon" onclick="toggleChat()">
+        💬
+    </div>
+    
+    <div id="chat-popup" class="chat-popup">
+        <div class="chat-header">
+            <span class="chat-title">Chat with us</span>
+            <span class="chat-close" onclick="toggleChat()">✖</span>
+        </div>
+        <div class="chat-body">
+            <div class="chat-messages" id="chat-messages">
+                <!-- Messages will appear here -->
+            </div>
+            <input type="text" id="chat-input" placeholder="Type a message..." onkeydown="sendMessage(event)">
+        </div>
+    </div>
+    
+    <style>
+        .chat-icon {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #007BFF;
+            color: white;
+            font-size: 30px;
+            padding: 15px;
+            border-radius: 50%;
+            cursor: pointer;
+            z-index: 1000;
+        }
+    
+        .chat-popup {
+            position: fixed;
+            bottom: 80px;
+            right: 20px;
+            width: 300px;
+            height: 400px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            display: none;
+            flex-direction: column;
+            z-index: 1000;
+        }
+    
+        .chat-header {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    
+        .chat-title {
+            font-weight: bold;
+        }
+    
+        .chat-close {
+            cursor: pointer;
+            font-size: 20px;
+        }
+    
+        .chat-body {
+            flex-grow: 1;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .chat-messages {
+            flex-grow: 1;
+            overflow-y: auto;
+            margin-bottom: 10px;
+        }
+    
+        #chat-input {
+            padding: 10px;
+            font-size: 14px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+    </style>
+    
+    <script>
+        function toggleChat() {
+            const chatPopup = document.getElementById('chat-popup');
+            chatPopup.style.display = chatPopup.style.display === 'flex' ? 'none' : 'flex';
+        }
+    
+        function sendMessage(event) {
+            if (event.key === 'Enter') {
+                const input = document.getElementById('chat-input');
+                const message = input.value.trim();
+                if (message) {
+                    const messageDiv = document.createElement('div');
+                    messageDiv.textContent = `You: ${message}`;
+                    document.getElementById('chat-messages').appendChild(messageDiv);
+                    input.value = '';
+                    input.focus();
+                    // Scroll to the latest message
+                    document.getElementById('chat-messages').scrollTop = document.getElementById('chat-messages').scrollHeight;
+                }
+            }
+        }
+    </script>
+    
+</body>
+</html>
